@@ -10,9 +10,9 @@ See http://996grid.com/ for more information.
 - **grid.css** | The core of the grid system. Includes comments to explain each section.
 - **base.css** | HTML5 Boilerplate for consistent design across browsers.
 - **style.css** | Stylesheet for user styles. Includes a variety of useful media queries.
-- **modernizr.js** | Bring older browsers up to speed
-- **996\_grid.ai, 996\_grid.psd** | PSD and AI templates included to aid in design
-- **996_sketch.pdf** | PDF containing grid layout to use as sketch paper
+- **modernizr.js** | Bring older browsers up to speed.
+- **996\_grid.ai, 996\_grid.psd** | PSD and AI templates included to aid in design.
+- **996_sketch.pdf** | PDF containing grid layout to use as sketch paper.
 
 ## Credits
 
