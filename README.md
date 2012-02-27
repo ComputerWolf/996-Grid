@@ -1,6 +1,6 @@
 # 996 Grid | Responsive Design Framework
 
-A fixed-width grid framework made up of 12 even columns, which adapts the content automatically to display nicely on various screen sizes from desktop to mobile. At the largest size, the content is allowed a 980px-wide area which can be divided nicely into equal columns of two, three, four, or six. 
+A fixed-width grid framework made up of 12 even columns, which adapts the content automatically to display nicely on various screen sizes from desktop to mobile. At the largest size, the content is allowed a 970px-wide area which can be divided nicely into equal columns of two, three, four, or six. 
 
 See http://996grid.com/ for more information.
 

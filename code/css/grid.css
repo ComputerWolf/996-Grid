@@ -2,7 +2,7 @@
 Responsive 996px grid system ~ Grid CSS.
 Copyright 2012, Josh Cope
 
-12 Columns ~ Margin left: 8px ~ Margin right: 8px
+12 Columns ~ Margin left: 13px ~ Margin right: 13px
 
 Based on the 960.gs grid system - http://960.gs/
 by Nathan Smith
@@ -38,8 +38,8 @@ Licensed under GPL and MIT
 	.grid_12 {
 		display: inline;
 		float: left;
-		margin-left: 8px;
-		margin-right: 8px;
+		margin-left: 13px;
+		margin-right: 13px;
 	}
 
 	.push_1, .pull_1,
@@ -61,18 +61,18 @@ Licensed under GPL and MIT
 	.omega {margin-right: 0;}
 
 	/* Base Grid */
-	.container .grid_1 {width: 67px;}
-	.container .grid_2 {width: 150px;}
-	.container .grid_3 {width: 233px;}
-	.container .grid_4 {width: 316px;}
-	.container .grid_5 {width: 399px;}
-	.container .grid_6 {width: 482px;}
-	.container .grid_7 {width: 565px;}
-	.container .grid_8 {width: 648px;}
-	.container .grid_9 {width: 731px;}
-	.container .grid_10 {width: 814px;}
-	.container .grid_11 {width: 897px;}
-	.container .grid_12 {width: 980px;}
+	.container .grid_1 {width: 57px;}
+	.container .grid_2 {width: 140px;}
+	.container .grid_3 {width: 223px;}
+	.container .grid_4 {width: 306px;}
+	.container .grid_5 {width: 389px;}
+	.container .grid_6 {width: 472px;}
+	.container .grid_7 {width: 555px;}
+	.container .grid_8 {width: 638px;}
+	.container .grid_9 {width: 721px;}
+	.container .grid_10 {width: 804px;}
+	.container .grid_11 {width: 887px;}
+	.container .grid_12 {width: 970px;}
 
 	/* Prefix Extra Space */
 	.container .prefix_1 {padding-left: 83px;}
