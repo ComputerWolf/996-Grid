@@ -8,6 +8,7 @@ See http://996grid.com/ for more information.
 
 - **index.html** | Sample markup with the recommended head tags and scripts.
 - **grid.css** | The core of the grid system. Includes comments to explain each section.
+- **normalize.css** | CSS normalizations and common bug fixes.
 - **base.css** | HTML5 Boilerplate for consistent design across browsers.
 - **style.css** | Stylesheet for user styles. Includes a variety of useful media queries.
 - **modernizr.js** | Bring older browsers up to speed.
