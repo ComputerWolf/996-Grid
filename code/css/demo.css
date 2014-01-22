@@ -41,7 +41,13 @@ p {
 }
 
 .container {
-  background-image: url('../demo-files/12_col.png');
+  background: #00bbff;
+}
+
+@media only screen and (min-width: 996px) and (max-width: 1295px) {
+	.container {
+		background-image: url('../demo-files/12_col.png');
+	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 995px) {

@@ -1,6 +1,6 @@
 /*
-Responsive 996px grid system ~ Style CSS.
-Copyright 2013, Josh Cope
+Responsive 1296px grid system ~ Style CSS.
+Copyright 2014, Josh Cope
 */
 
 /* =============================================================================
@@ -15,7 +15,10 @@ Copyright 2013, Josh Cope
    Media Queries
    ========================================================================== */
 
-/* Tablet Portrait size to Base 996px */
+/* Small Desktop to Base 1296px */
+@media only screen and (min-width: 996px) and (max-width: 1295px) {}   
+   
+/* Tablet Portrait size to Small Desktop */
 @media only screen and (min-width: 768px) and (max-width: 995px) {}
 
 /* All Mobile Sizes */

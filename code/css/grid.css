@@ -1,6 +1,6 @@
 /*
-Responsive 996px grid system ~ Grid CSS.
-Copyright 2013, Josh Cope
+Responsive 1296px grid system ~ Grid CSS.
+Copyright 2014, Josh Cope
 
 12 Columns ~ Margin left: 13px ~ Margin right: 13px
 
@@ -11,16 +11,16 @@ Licensed under GPL and MIT
 */
 
 /* =============================================================================
-   Base 966px Grid
+   Base 1296px Grid
    ========================================================================== */
    
-	body {min-width: 996px;}
+	body {min-width: 1296px;}
 
 	/* Container */
 	.container {
 		margin-left: auto;
 		margin-right: auto;
-		width: 996px;
+		width: 1296px;
 	}
 
 	/* Global */
@@ -61,6 +61,87 @@ Licensed under GPL and MIT
 	.omega {margin-right: 0;}
 
 	/* Base Grid */
+	.container .grid_1 {width: 82px;}
+	.container .grid_2 {width: 190px;}
+	.container .grid_3 {width: 298px;}
+	.container .grid_4 {width: 406px;}
+	.container .grid_5 {width: 514px;}
+	.container .grid_6 {width: 622px;}
+	.container .grid_7 {width: 730px;}
+	.container .grid_8 {width: 838px;}
+	.container .grid_9 {width: 946px;}
+	.container .grid_10 {width: 1054px;}
+	.container .grid_11 {width: 1162px;}
+	.container .grid_12 {width: 1270px;}
+
+	/* Prefix Extra Space */
+	.container .prefix_1 {padding-left: 108px;}
+	.container .prefix_2 {padding-left: 216px;}
+	.container .prefix_3 {padding-left: 324px;}
+	.container .prefix_4 {padding-left: 432px;}
+	.container .prefix_5 {padding-left: 540px;}
+	.container .prefix_6 {padding-left: 648px;}
+	.container .prefix_7 {padding-left: 756px;}
+	.container .prefix_8 {padding-left: 864px;}
+	.container .prefix_9 {padding-left: 972px;}
+	.container .prefix_10 {padding-left: 1080px;}
+	.container .prefix_11 {padding-left: 1188px;}
+
+	/* Suffix Extra Space */
+	.container .suffix_1 {padding-right: 108px;}
+	.container .suffix_2 {padding-right: 216px;}
+	.container .suffix_3 {padding-right: 324px;}
+	.container .suffix_4 {padding-right: 432px;}
+	.container .suffix_5 {padding-right: 540px;}
+	.container .suffix_6 {padding-right: 648px;}
+	.container .suffix_7 {padding-right: 756px;}
+	.container .suffix_8 {padding-right: 864px;}
+	.container .suffix_9 {padding-right: 972px;}
+	.container .suffix_10 {padding-right: 1080px;}
+	.container .suffix_11 {padding-right: 1188px;}
+
+	/* Push Space */
+	.container .push_1 {left: 108px;}
+	.container .push_2 {left: 216px;}
+	.container .push_3 {left: 324px;}
+	.container .push_4 {left: 432px;}
+	.container .push_5 {left: 540px;}
+	.container .push_6 {left: 648px;}
+	.container .push_7 {left: 756px;}
+	.container .push_8 {left: 864px;}
+	.container .push_9 {left: 972px;}
+	.container .push_10 {left: 1080px;}
+	.container .push_11 {left: 1188px;}
+
+	/* Pull Space */
+	.container .pull_1 {left: -108px;}
+	.container .pull_2 {left: -216px;}
+	.container .pull_3 {left: -324px;}
+	.container .pull_4 {left: -432px;}
+	.container .pull_5 {left: -540px;}
+	.container .pull_6 {left: -648px;}
+	.container .pull_7 {left: -756px;}
+	.container .pull_8 {left: -864px;}
+	.container .pull_9 {left: -972px;}
+	.container .pull_10 {left: -1080px;}
+	.container .pull_11 {left: -1188px;}
+
+	/* Images & Other Objects */
+	img, object, embed {	max-width: 100%;}
+	img { height: auto; }
+	
+/* =============================================================================
+   996px Grid
+   ========================================================================== */
+   
+@media only screen and (min-width: 996px) and (max-width: 1295px) {
+  
+	body {min-width: 996px;}
+
+	/* Container | 996px */
+	.container {width: 996px;}
+
+	/* Base Grid | 996px */
 	.container .grid_1 {width: 57px;}
 	.container .grid_2 {width: 140px;}
 	.container .grid_3 {width: 223px;}
@@ -74,7 +155,7 @@ Licensed under GPL and MIT
 	.container .grid_11 {width: 887px;}
 	.container .grid_12 {width: 970px;}
 
-	/* Prefix Extra Space */
+	/* Prefix Extra Space | 996px */
 	.container .prefix_1 {padding-left: 83px;}
 	.container .prefix_2 {padding-left: 166px;}
 	.container .prefix_3 {padding-left: 249px;}
@@ -87,7 +168,7 @@ Licensed under GPL and MIT
 	.container .prefix_10 {padding-left: 830px;}
 	.container .prefix_11 {padding-left: 913px;}
 
-	/* Suffix Extra Space */
+	/* Suffix Extra Space | 996px */
 	.container .suffix_1 {padding-right: 83px;}
 	.container .suffix_2 {padding-right: 166px;}
 	.container .suffix_3 {padding-right: 249px;}
@@ -100,7 +181,7 @@ Licensed under GPL and MIT
 	.container .suffix_10 {padding-right: 830px;}
 	.container .suffix_11 {padding-right: 913px;}
 
-	/* Push Space */
+	/* Push Space | 996px */
 	.container .push_1 {left: 83px;}
 	.container .push_2 {left: 166px;}
 	.container .push_3 {left: 249px;}
@@ -113,7 +194,7 @@ Licensed under GPL and MIT
 	.container .push_10 {left: 830px;}
 	.container .push_11 {left: 913px;}
 
-	/* Pull Space */
+	/* Pull Space | 996px */
 	.container .pull_1 {left: -83px;}
 	.container .pull_2 {left: -166px;}
 	.container .pull_3 {left: -249px;}
@@ -125,11 +206,11 @@ Licensed under GPL and MIT
 	.container .pull_9 {left: -747px;}
 	.container .pull_10 {left: -830px;}
 	.container .pull_11 {left: -913px;}
-
-	/* Images & Other Objects */
-	img, object, embed {	max-width: 100%;}
-	img { height: auto; }
-
+	
+	/* Children (Alpha ~ First, Omega ~ Last) | 996px */
+	.alpha {margin-left: 0;}
+	.omega {margin-right: 0;}
+}
 
 /* =============================================================================
    768px Grid
@@ -224,7 +305,7 @@ Licensed under GPL and MIT
 	.container .pull_10 {left: -640px;}
 	.container .pull_11 {left: -704px;}
 	
-	/* Children (Alpha ~ First, Omega ~ Last) | 768 */
+	/* Children (Alpha ~ First, Omega ~ Last) | 768px */
 	.alpha {margin-left: 0;}
 	.omega {margin-right: 0;}
 }
