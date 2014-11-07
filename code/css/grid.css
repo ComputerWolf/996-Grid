@@ -40,7 +40,6 @@ Licensed under GPL and MIT
         float: left;
         margin-left: 13px;
         margin-right: 13px;
-        box-sizing:border-box;
     }
 
     .push_1, .pull_1,
@@ -255,7 +254,7 @@ Licensed under GPL and MIT
     .container .grid_10,
     .container .grid_11,
     .container .grid_12	{
-        width:456px;
+        width:416px;
         clear: both;
         float: none;
         margin-left: 0;
@@ -328,6 +327,6 @@ Licensed under GPL and MIT
     .container .grid_10,
     .container .grid_11,
     .container .grid_12	{
-        width:300px;
+        width:260px;
     }
 }
